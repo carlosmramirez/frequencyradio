@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   border-bottom: 1px solid rgba(256, 256, 256, 0.8);
+  height: auto;
 }
 
 .Track-action {
@@ -28,10 +29,12 @@
 
 .Track-information h3 {
   margin-bottom: .22rem;
+  font-size: .7rem;
 }
 
 .Track-information p {
-  font-size: .83rem;
+  font-size: .5rem;
   font-weight: 300;
   color: rgba(256, 256, 256, 0.8);
+  line-height: 1.6;
 }
