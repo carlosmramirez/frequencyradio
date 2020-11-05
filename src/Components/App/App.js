@@ -3,7 +3,7 @@ import React from 'react';
 import SearchBar from '../SearchBar/SearchBar';
 import SearchResults from '../SearchResults/SearchResults';
 import Playlist from '../Playlist/Playlist';
-import Spotify from '../../util/spotify';
+import Spotify from '../../util/spotify'; // file path was previously not working
 
 class App extends React.Component {
   constructor(props) {
