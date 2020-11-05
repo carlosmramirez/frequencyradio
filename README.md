@@ -1,3 +1,5 @@
+To test this app, visit the following link: http://Frequency_test.surge.sh/
+
 # Getting Started with Frequency Radio
 
 This project was made in conjunction with the codecademy "Create a Front End App with React" course. This app will allow you to search the Spotify API for songs, artist, etc., add/remove songs from a playlist, modify the playlist name, and save the playlist to your Spotify account.
