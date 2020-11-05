@@ -5,7 +5,6 @@ const redirectUri = 'http://Frequency_test.surge.sh/';
 const Spotify = {
   getAccessToken() {
     if (accessToken) {
-      console.log("INSIDE GET ACCESS TOKEN", accessToken)
       return accessToken;
     }
     // check for access token in URL
