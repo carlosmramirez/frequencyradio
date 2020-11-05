@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Getting Started with Frequency Radio
+
+This project was made in conjunction with the codecademy "Create a Front End App with React" course. I modified the css (fonts, font-size, heights) and fixed a bug relating to playlist title after saving to Spotify.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
