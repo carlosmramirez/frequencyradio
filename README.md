@@ -13,7 +13,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 ### `npm start`
-In order to run locally, update line 3 in `src/util/Spotify.js` as follows:\
+In order to run locally, update line 3 in `src/util/spotify.js` as follows:\
 `const redirectUri = 'http://localhost:3000';`
 
 Runs the app in the development mode.\
