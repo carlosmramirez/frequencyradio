@@ -17,7 +17,7 @@ const Spotify = {
       const expiresIn = Number(expiresInMatch[1]);
       // clears authorization parameters when expired
       window.setTimeout(() => accessToken = '', expiresIn * 1000);
-      //window.history.pushState('Access Token', null, '/');
+      window.history.pushState('Access Token', null, '/');
       return accessToken;
     } else {
       const accessUrl = `https://accounts.spotify.com/authorize?client_id=${clientId}&redirect_uri=${redirectUri}&scope=playlist-modify-public&response_type=token`;
